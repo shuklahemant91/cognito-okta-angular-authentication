@@ -1,0 +1,24 @@
+<div class="main-info-container">
+  <div class="card">
+    <div class="card-body">
+      <span class="card-head">Current Closing</span>
+      <span class="card-text">{{ currentClosing?.subscriptionName }}</span>
+      <span class="card-text">{{ currentClosing?.closingName }}</span>
+      <span class="card-text"
+        >Closing Date {{ currentClosing?.closingDate }}</span
+      >
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <span class="card-head">Pending Subscriptions</span>
+      <span class="card-count">{{ pendingSubscriptions }}</span>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <span class="card-head">Complete Subscriptions</span>
+      <span class="card-count">{{ completeSubscriptions }}</span>
+    </div>
+  </div>
+</div>

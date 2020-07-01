@@ -1,0 +1,435 @@
+{
+  "homeDashboard": {
+    "pendingSubscriptions": 4,
+    "completeSubscriptions": 10,
+    "currentClosing": {
+      "subscriptionName": "Belgard Capital Fund LLC",
+      "closingDate": "6/18/2020",
+      "closingName": "Belgard #6"
+    },
+    "dataHeaders": [
+      {
+        "label": "Subscriptions",
+        "key": "subscriptions",
+        "type": "link",
+        "active": true
+      },
+      {
+        "label": "Scan Results",
+        "key": "scanResults",
+        "type": "text",
+        "active": false
+      },
+      {
+        "label": "Result Detail",
+        "key": "resultDetail",
+        "type": "text",
+        "active": false
+      },
+      {
+        "label": "Scan Review Status",
+        "key": "scanReviewStatus",
+        "type": "text",
+        "active": true
+      },
+      { "label": "Action", "key": "action", "type": "text", "active": false },
+      {
+        "label": "Scan Markup?",
+        "key": "scanMarkup",
+        "type": "text",
+        "active": true
+      },
+      {
+        "label": "Date Received",
+        "key": "dateReceived",
+        "type": "text",
+        "active": true
+      },
+      {
+        "label": "Closing Name",
+        "key": "closingName",
+        "type": "text",
+        "active": false
+      },
+      {
+        "label": "Closing Date",
+        "key": "closingDate",
+        "type": "text",
+        "active": false
+      },
+      {
+        "label": "Exchange Fund Name",
+        "key": "exchangeFundName",
+        "type": "text",
+        "active": false
+      },
+      {
+        "label": "Current Closing",
+        "key": "currentClosing",
+        "type": "checkbox",
+        "active": false
+      },
+      {
+        "label": "Date Created",
+        "key": "dateCreated",
+        "type": "text",
+        "active": false
+      }
+    ],
+    "data": [
+      {
+        "subscriptions": "Charles Mac",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "Yes",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #6",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac 1",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "Yes",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #6",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac 2",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "Yes",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #6",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac 3",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "Yes",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #6",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac 4",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #6",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac 5",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #6",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac 6",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #6",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac 7",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #6",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac 8",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #6",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac 9",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #6",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      }
+    ]
+  },
+  "closingDashBoard": {
+    "dataHeaders": [
+      {
+        "label": "Subscriptions",
+        "key": "subscriptions",
+        "type": "link",
+        "active": false
+      },
+      {
+        "label": "Scan Results",
+        "key": "scanResults",
+        "type": "text",
+        "active": false
+      },
+      {
+        "label": "Result Detail",
+        "key": "resultDetail",
+        "type": "text",
+        "active": false
+      },
+      {
+        "label": "Scan Review Status",
+        "key": "scanReviewStatus",
+        "type": "text",
+        "active": false
+      },
+      { "label": "Action", "key": "action", "type": "text", "active": false },
+      {
+        "label": "Scan Markup?",
+        "key": "scanMarkup",
+        "type": "text",
+        "active": false
+      },
+      {
+        "label": "Date Received",
+        "key": "dateReceived",
+        "type": "text",
+        "active": false
+      },
+      {
+        "label": "Closing Name",
+        "key": "closingName",
+        "type": "text",
+        "active": true
+      },
+      {
+        "label": "Closing Date",
+        "key": "closingDate",
+        "type": "text",
+        "active": true
+      },
+      {
+        "label": "Exchange Fund Name",
+        "key": "exchangeFundName",
+        "type": "text",
+        "active": true
+      },
+      {
+        "label": "Current Closing",
+        "key": "currentClosing",
+        "type": "checkbox",
+        "active": true
+      },
+      {
+        "label": "Date Created",
+        "key": "dateCreated",
+        "type": "text",
+        "active": true
+      }
+    ],
+    "data": [
+      {
+        "subscriptions": "Charles Mac",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No/Yes",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #9",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No/Yes",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #8",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No/Yes",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #7",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No/Yes",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #6",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No/Yes",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #5",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No/Yes",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #4",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No/Yes",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #3",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No/Yes",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #2",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      },
+      {
+        "subscriptions": "Charles Mac",
+        "scanResults": "Pass",
+        "resultDetail": "N/A",
+        "scanReviewStatus": "Completed | Not Started",
+        "action": "Start Review",
+        "scanMarkup": "No/Yes",
+        "dateReceived": "12-April-2020 1:25 PM",
+        "closingName": "Belgard #1",
+        "closingDate": "6/18/2020",
+        "exchangeFundName": "Belgard Capital Fund LLC",
+        "currentClosing": true,
+        "dateCreated": "06-March-2020 1:25PM"
+      }
+    ]
+  },
+  "fundNameList": [
+    {
+      "fundName": "Belvedre Capital Fund Company LLC",
+      "fundId": 201
+    },
+    {
+      "fundName": "Belgard Capital Fund Company LLC",
+      "fundId": 202
+    },
+    {
+      "fundName": "Clearisle Fund Company LLC",
+      "fundId": 203
+    }
+  ]
+}
