@@ -5,18 +5,9 @@ import { HttpClientModule } from "@angular/common/http";
 import { ReactiveFormsModule } from "@angular/forms";
 import { AppComponent } from "./app.component";
 import { TabsComponent } from "./components/tabs/tabs.component";
-import { MainInfoComponent } from "./components/main-info/main-info.component";
-import { HomeComponent } from "./components/home/home.component";
-import { ScanComponent } from "./components/scan/scan.component";
-import { AdminComponent } from "./components/admin/admin.component";
+
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { DataTableComponent } from "./components/data-table/data-table.component";
-import { TableFilterPipe } from "./filters/tableFilter";
-import { ItemFilterPipe } from "./filters/itemFilter";
-import { ClosingFormComponent } from "./components/closing-form/closing-form.component";
-import { DemoComponentComponent } from "./components/demo-component/demo-component.component";
-import { DynamicDirective } from "./directives/dynamic.directive";
-import { LazyComponentComponent } from "./components/lazy-component/lazy-component.component";
+
 import { AppRoutingModule } from "./app.routing.module";
 import { LoginComponent } from "./components/login/login.component";
 
@@ -29,21 +20,7 @@ import awsconfig from "../aws-exports";
 Amplify.configure(awsconfig);
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    TabsComponent,
-    MainInfoComponent,
-    HomeComponent,
-    ScanComponent,
-    AdminComponent,
-    DataTableComponent,
-    TableFilterPipe,
-    ItemFilterPipe,
-    ClosingFormComponent,
-    DemoComponentComponent,
-    DynamicDirective,
-    LoginComponent,
-  ],
+  declarations: [AppComponent, TabsComponent, LoginComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -55,6 +32,6 @@ Amplify.configure(awsconfig);
   ],
   providers: [],
   bootstrap: [AppComponent],
-  entryComponents: [DataTableComponent],
+  entryComponents: [],
 })
 export class AppModule {}
