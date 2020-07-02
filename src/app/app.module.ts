@@ -15,12 +15,13 @@ import { LoginComponent } from "./components/login/login.component";
 import { AmplifyUIAngularModule } from "@aws-amplify/ui-angular";
 import Amplify from "aws-amplify";
 import awsconfig from "../aws-exports";
+import { UploadComponent } from './components/upload/upload.component';
 
 /* Configure Amplify resources */
 Amplify.configure(awsconfig);
 
 @NgModule({
-  declarations: [AppComponent, TabsComponent, LoginComponent],
+  declarations: [AppComponent, TabsComponent, LoginComponent, UploadComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
