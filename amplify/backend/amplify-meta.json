@@ -20,7 +20,7 @@
                 "s3TemplateURL": "https://s3.amazonaws.com/amplify-demoawsamplify-dev-170016-deployment/amplify-cfn-templates/hosting/template.json",
                 "logicalId": "hostingS3AndCloudFront"
             },
-            "lastPushTimeStamp": "2020-07-03T09:23:33.921Z",
+            "lastPushTimeStamp": "2020-07-03T09:44:27.695Z",
             "output": {
                 "CloudFrontSecureURL": "https://d1z71cxu36weec.cloudfront.net",
                 "S3BucketSecureURL": "https://demoamplifycognito-dev.s3.amazonaws.com",
