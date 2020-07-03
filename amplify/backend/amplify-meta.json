@@ -1,0 +1,37 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-demoawsamplify-dev-170016-authRole",
+			"UnauthRoleArn": "arn:aws:iam::227754652105:role/amplify-demoawsamplify-dev-170016-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::227754652105:role/amplify-demoawsamplify-dev-170016-authRole",
+			"Region": "us-east-2",
+			"DeploymentBucketName": "amplify-demoawsamplify-dev-170016-deployment",
+			"UnauthRoleName": "amplify-demoawsamplify-dev-170016-unauthRole",
+			"StackName": "amplify-demoawsamplify-dev-170016",
+			"StackId": "arn:aws:cloudformation:us-east-2:227754652105:stack/amplify-demoawsamplify-dev-170016/3f156ba0-bb8e-11ea-a744-06d398e7edd6",
+			"AmplifyAppId": "d3mrj5j3hkw8rm"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-demoawsamplify-dev-170016-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2020-07-02T10:46:47.586Z",
+			"output": {
+				"CloudFrontSecureURL": "https://d1z71cxu36weec.cloudfront.net",
+				"S3BucketSecureURL": "https://demoamplifycognito-dev.s3.amazonaws.com",
+				"CloudFrontOriginAccessIdentity": "E2R24GNZQ1P1YJ",
+				"WebsiteURL": "http://demoamplifycognito-dev.s3-website.us-east-2.amazonaws.com",
+				"CloudFrontDistributionID": "E13CKJUVNEUNUA",
+				"Region": "us-east-2",
+				"HostingBucketName": "demoamplifycognito-dev",
+				"CloudFrontDomainName": "d1z71cxu36weec.cloudfront.net"
+			},
+			"lastPushDirHash": "JfUgtSZbrQUQRhriKFelfuGSMmI="
+		}
+	}
+}

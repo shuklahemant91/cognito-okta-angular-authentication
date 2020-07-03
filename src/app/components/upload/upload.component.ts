@@ -35,8 +35,6 @@ export class UploadComponent implements OnInit {
       return;
     }
 
-    // let headers = new HttpHeaders();
-    // headers = headers.set("Content-Type", "application/pdf");
     const formData = new FormData();
     formData.append("file", this.selectedFile, this.selectedFile.name);
 

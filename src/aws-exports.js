@@ -3,6 +3,9 @@
 
 const awsmobile = {
     "aws_project_region": "us-east-2",
+    "aws_content_delivery_bucket": "demoamplifycognito-dev",
+    "aws_content_delivery_bucket_region": "us-east-2",
+    "aws_content_delivery_url": "https://d1z71cxu36weec.cloudfront.net",
     "aws_cognito_identity_pool_id": "us-east-2:00274b3a-41a3-45b1-b471-b684ea1e0c6c",
     "aws_cognito_region": "us-east-2",
     "aws_user_pools_id": "us-east-2_zQtrHGhZP",
