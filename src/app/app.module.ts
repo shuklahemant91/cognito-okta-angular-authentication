@@ -34,10 +34,10 @@ const oauth = {
   ],
 
   // Callback URL
-  redirectSignIn: "https://d1z71cxu36weec.cloudfront.net/upload",
+  redirectSignIn: "http://localhost:4200",
 
   // Sign out URL
-  redirectSignOut: "https://d1z71cxu36weec.cloudfront.net/login",
+  redirectSignOut: "http://localhost:4200",
 
   // 'code' for Authorization code grant,
   // 'token' for Implicit grant
