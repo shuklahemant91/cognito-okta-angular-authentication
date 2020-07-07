@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, NgZone } from "@angular/core";
+import { Auth, Hub } from "aws-amplify";
 
 @Component({
   selector: "app-root",
@@ -7,11 +8,35 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "Demo";
+  user: any = null;
+
+  constructor(private zone: NgZone) {
+    Auth.currentAuthenticatedUser()
+      .then((user) => {
+        console.log(user);
+        this.user = user;
+      })
+      .catch(() => console.log("Not signed in"));
+  }
+
+  ngOnInit() {}
 
   onLoginOktaClick(event) {
     event.preventDefault();
-    const url =
-      "https://octa.auth.us-east-2.amazoncognito.com/login?response_type=code&client_id=1nakqpl7qmdmppvis5bp1ej4p0&redirect_uri=https://d1z71cxu36weec.cloudfront.net/upload";
-    window.location.assign(url);
+    // const url =
+    //   "https://octa.auth.us-east-2.amazoncognito.com/login?response_type=code&client_id=1nakqpl7qmdmppvis5bp1ej4p0&redirect_uri=https://d1z71cxu36weec.cloudfront.net/upload";
+    // window.location.assign(url);
+    Auth.federatedSignIn({
+      customProvider: "Okta",
+    });
+  }
+
+  async signOut(event) {
+    event.preventDefault();
+    try {
+      await Auth.signOut();
+    } catch (error) {
+      console.log("error signing out: ", error);
+    }
   }
 }

@@ -16,6 +16,8 @@ import { AmplifyUIAngularModule } from "@aws-amplify/ui-angular";
 import Amplify, { Auth } from "aws-amplify";
 import awsconfig from "../aws-exports";
 import { UploadComponent } from "./components/upload/upload.component";
+import { ErrorComponent } from "./components/error/error.component";
+import { DecDetailComponent } from "./components/dec-detail/dec-detail.component";
 
 /* Configure Amplify resources */
 Amplify.configure(awsconfig);
@@ -25,19 +27,13 @@ const oauth = {
   domain: "octa.auth.us-east-2.amazoncognito.com/",
 
   // Authorized scopes
-  scope: [
-    "phone",
-    "email",
-    "profile",
-    "openid",
-    "aws.cognito.signin.user.admin",
-  ],
+  scope: ["email", "openid"],
 
   // Callback URL
-  redirectSignIn: "https://d1z71cxu36weec.cloudfront.net/upload",
+  redirectSignIn: "https://d1z71cxu36weec.cloudfront.net",
 
   // Sign out URL
-  redirectSignOut: "https://d1z71cxu36weec.cloudfront.net/login",
+  redirectSignOut: "https://d1z71cxu36weec.cloudfront.net",
 
   // 'code' for Authorization code grant,
   // 'token' for Implicit grant
@@ -55,7 +51,14 @@ Auth.configure({
 });
 
 @NgModule({
-  declarations: [AppComponent, TabsComponent, LoginComponent, UploadComponent],
+  declarations: [
+    AppComponent,
+    TabsComponent,
+    LoginComponent,
+    UploadComponent,
+    ErrorComponent,
+    DecDetailComponent,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

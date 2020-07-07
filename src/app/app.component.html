@@ -31,12 +31,19 @@
       </ul>
       <ul class="navbar-nav mr-auto align-right">
         <li class="nav-item">
-          <a class="nav-link" (click)="onLoginOktaClick($event)" href="#"
+          <a
+            *ngIf="!user"
+            class="nav-link"
+            (click)="onLoginOktaClick($event)"
+            href="#"
             >Login(Okta)</a
           >
+          <a class="nav-link" *ngIf="user">Welcome {{ user?.username }}</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Signup(Okta)</a>
+        <li class="nav-item" *ngIf="user">
+          <a class="nav-link" href="#" (click)="signOut($event)"
+            >Signout(Okta)</a
+          >
         </li>
       </ul>
     </div>
