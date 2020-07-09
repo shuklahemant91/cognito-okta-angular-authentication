@@ -10,7 +10,7 @@ import { DecDetailComponent } from "./components/dec-detail/dec-detail.component
 const routes: Routes = [
   { path: "dashboard", component: TabsComponent },
   { path: "login", component: LoginComponent },
-  { path: "upload", component: UploadComponent, canActivate: [AuthGuard] },
+  { path: "upload", component: UploadComponent },
   { path: "scan/:id", component: DecDetailComponent },
   { path: "", redirectTo: "/dashboard", pathMatch: "full" },
   { path: "**", component: ErrorComponent },

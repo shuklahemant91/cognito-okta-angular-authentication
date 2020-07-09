@@ -15,5 +15,9 @@ export class DecDetailComponent implements OnInit {
       console.log(this._route.snapshot.paramMap.get("id"));
       this.docId = +paramsMap.get("id");
     });
+
+    this._route.url.subscribe((url) =>
+      console.log("The URL changed to: " + url)
+    );
   }
 }

@@ -30,10 +30,10 @@ const oauth = {
   scope: ["email", "openid"],
 
   // Callback URL
-  redirectSignIn: "https://d1z71cxu36weec.cloudfront.net",
+  redirectSignIn: "http://localhost:4200",
 
   // Sign out URL
-  redirectSignOut: "https://d1z71cxu36weec.cloudfront.net",
+  redirectSignOut: "http://localhost:4200",
 
   // 'code' for Authorization code grant,
   // 'token' for Implicit grant

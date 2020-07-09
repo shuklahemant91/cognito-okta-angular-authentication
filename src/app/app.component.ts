@@ -1,6 +1,6 @@
 import { Component, NgZone } from "@angular/core";
 import { Auth, Hub } from "aws-amplify";
-
+import { AuthService } from "../app/components/auth/auth.service";
 @Component({
   selector: "app-root",
   templateUrl: "./app.component.html",
@@ -10,11 +10,12 @@ export class AppComponent {
   title = "Demo";
   user: any = null;
 
-  constructor(private zone: NgZone) {
+  constructor(private zone: NgZone, private authService: AuthService) {
     Auth.currentAuthenticatedUser()
       .then((user) => {
         console.log(user);
         this.user = user;
+        authService.setAccessToken(user.signInUserSession.accessToken.jwtToken);
       })
       .catch(() => console.log("Not signed in"));
   }
